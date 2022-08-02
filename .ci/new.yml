@@ -1,0 +1,19 @@
+
+version: v2.0
+ 
+name: demo
+ 
+on:
+  push:
+    branches:
+      - master
+      - main
+      
+stages:
+- name: "stage1"
+  jobs:
+    job_id_1:
+      name: my_job_1
+      steps:
+      - run: |
+          echo "stage1, job_id_1"
