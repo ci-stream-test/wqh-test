@@ -58,6 +58,3 @@ stages:
           echo "stage2, job_id_3"
           echo "APPROVE is ${{ variables.APPROVE }}"
           echo "steps.step_1.outputs.a is ${{ steps.step_1.outputs.a }}"
- 
-notices:
-- type: wechat-message
